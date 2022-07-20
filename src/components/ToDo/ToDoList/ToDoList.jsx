@@ -110,7 +110,7 @@ const ToDoList = () => {
     }
 
     return (
-        <div className='toDoList'>
+        <div className='toDoList container'>
             <div className='toDoListInfo'>
                 <h1>ToDo List</h1>
                 <h3>{date.getDate()}.{date.getUTCMonth() + 1}.{date.getFullYear()}</h3>
